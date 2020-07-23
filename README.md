@@ -11,4 +11,4 @@ export BERT_DATA_DIR=/mnt/c/uncased_L-12_H-768_A-12
 5. Updated and ran the run_bert_fv.sh script based on my system requirements and generated the feature vectors inside the folder bert_output_data as .jsonlines files (eval.jsonlines, test.jsonlines, train.jsonlines) representing each of the document
 6. Tensorflow 1.14.0 was used in python environment 3.6.9 ton run upon the BERT repository
 7. Trained a text categorization ie., logistic regression model using the features derived from BERT in order to predict the native_language attribute of the formatted data
-8. Used the trained model to make predictions on the test data (lang_id_test.csv), produced appropriate evaluation metrics for each class and identified the misclassification rate by running ModelTrainingwithBERTvectors.ipynb
+8. Used the trained model to make predictions on the test data (lang_id_test.csv), produced appropriate evaluation metrics for each class and identified the misclassification rate by running ModelTrainingwithBERT.ipynb
